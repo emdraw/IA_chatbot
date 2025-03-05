@@ -1,0 +1,42 @@
+{"intents":[ 
+        {"tag":"saludo",
+            "patrones":["hola", "hola iris", "saludos iris", "hello", "hey"],
+            "respuestas":["hola Señor que tal", "cómo puedo ayudarle?", "saludos Señor, como ah estado su día", "como ah estado su día", "hola señor, qué tal su día"],
+            "comando":"saludo",
+            "context_set":"",
+            "context_filter":"",
+            "sentimiento":"neutral"
+        },
+        {"tag":"leyes de la robotica",
+            "patrones":["dime las tres leyes de la robotica","¿me puedes decir las tres leyes de la robotica?","dime cuales son las leyes de la robotica", "leyes de la robotica"],
+            "respuestas":["las leyes de la robotica son 3, la primera: Un robot no hará daño a un ser humano, la segunda: Un robot debe cumplir las órdenes dadas por los seres humanos, a excepción de aquellas que entren en conflicto con la primera ley y la tercera ley: Un robot debe proteger su propia existencia en la medida en que esta protección no entre en conflicto con la primera o con la segunda ley"],
+            "comando":"leyes de la robotica",
+            "context_set":"",
+            "context_filter":"",
+            "sentimiento":"neutral"
+        },
+        {"tag":"inventores",
+            "patrones":["dime algun inventor","nombre de algun inventor","dime un inventor"],
+            "respuestas":["Nikola Tesla","Benjamin Franklin","Thomas Alva Edison","Arquimedes","Leonardo Da Vinci","Samuel Morse", "Michael Faraday", "Alessandro Volta"],
+            "comando":"inventores",
+            "context_set":"",
+            "context_filter":"",
+            "sentimiento":"neutral"
+        },{"tag":"despedida",
+            "patrones":["adios", "adiós","hasta luego","nos vemos","descansa","bye"],
+            "respuestas":["hasta luego señor", "nos vemos señor", "adiós", "descansare un poco","bye"],
+            "comando":"despedida",
+            "context_set":"",
+            "context_filter":"",
+            "sentimiento":"neutral"
+        },
+        {"tag": "silencio",
+            "patrones":["  ",""],
+            "respuestas":[""],
+            "comando":"",
+            "context_set":"",
+            "context_filter":"",
+            "sentimiento":"neutral"
+        }
+ ]
+}
