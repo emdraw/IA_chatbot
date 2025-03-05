@@ -98,6 +98,6 @@ def mainbot():
             if tagAux["tag"] == tag:
                 respuesta = tagAux["respuestas"]
 
-        print("[+]IRIS: ", random.choice(respuesta))
+        print("[+]Bot: ", random.choice(respuesta))
 
 mainbot()
