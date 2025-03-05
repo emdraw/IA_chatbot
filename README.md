@@ -36,7 +36,7 @@ bash
 
 Copy
 
-git clone https://github.com/tu-usuario/chatbot-ia-tensorflow.git
+git clone https://github.com/emdraw/IA_chatbot.git
 
 cd chatbot-ia-tensorflow
 
